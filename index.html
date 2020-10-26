@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Cursor</title>
+    <link rel="stylesheet" href="./sass/styles.scss" />
+  </head>
+  <body class="loading">
+    <!-- Header -->
+    <header>
+      <div class="header-inner">
+        <div class="header-inner-col left">
+          <div class="header-inner-logo">
+            <h2 style="color: #009B77;">Wanderlust</h2>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-inner-banner">
+            <div class="hero-inner-col left"></div>
+            <div class="hero-inner-col right">
+              <div class="hero-inner-title">
+                <h1>We make it happen</h1>
+              </div>
+              <div class="hero-inner-links">
+                <div data-video-src="London" class="hero-inner-link-item">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>London</span></a>
+                </div>
+                <div data-video-src="NewYork" class="hero-inner-link-item">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>NewYork</span></a>
+                </div>
+                <div class="hero-inner-link-item" data-video-src="Singapore">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>Singapore</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-inner-footer">
+          <div class="hero-inner-footer-text">
+            <p>
+              The world is a book, and those who do not travel read only one page.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Cursor -->
+    <div class="cursor">
+      <div class="cursor-media">
+        <video src="videos/London.mp4" preload="auto" autoplay muted loop id="London"></video>
+        <video src="videos/NewYork.mp4" preload="auto" autoplay muted loop id="NewYork"></video>
+        <video src="videos/Singapore.mp4" preload="auto" autoplay muted loop id="Singapore"></video>
+        
+      </div>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>
